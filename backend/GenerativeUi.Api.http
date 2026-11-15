@@ -1,0 +1,16 @@
+@GenerativeUi_Api_HostAddress = http://127.0.0.1:3002
+
+GET {{GenerativeUi_Api_HostAddress}}/api/health
+Accept: application/json
+
+###
+GET {{GenerativeUi_Api_HostAddress}}/api/mock-observability
+Accept: application/json
+
+###
+POST {{GenerativeUi_Api_HostAddress}}/api/generate
+Content-Type: application/json
+
+{
+  "prompt": "現在有哪些生產線？各自良率如何？"
+}

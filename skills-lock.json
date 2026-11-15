@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "core": {
+      "source": "vercel-labs/json-render",
+      "sourceType": "github",
+      "skillPath": "skills/core/SKILL.md",
+      "computedHash": "91f99f5a19b925435f438a1b8f662bb86b49b79be280b6f9e770abeefcdc0339"
+    },
+    "json-render-shadcn": {
+      "source": "vercel-labs/json-render",
+      "sourceType": "github",
+      "skillPath": "skills/json-render-shadcn/SKILL.md",
+      "computedHash": "b09982175f109a3b6392bdda43bca48061dfe8ff2655ed3206b811fafb0028a7"
+    },
+    "react": {
+      "source": "vercel-labs/json-render",
+      "sourceType": "github",
+      "skillPath": "skills/react/SKILL.md",
+      "computedHash": "7d6d1fc6eb68610aae450ff37281f0898db5fdac6fbbcf301d46ac17b6c3acfc"
+    }
+  }
+}
